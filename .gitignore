@@ -1,0 +1,12 @@
+# 1. Ignore absolutely everything by default
+*
+
+# 2. Un-ignore all folders (this keeps your folder structure)
+!*/
+
+# 3. Un-ignore R scripts
+!*.R
+!*.r
+
+# 4. Un-ignore the .gitignore file itself
+!.gitignore
